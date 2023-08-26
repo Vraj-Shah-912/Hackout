@@ -1,7 +1,7 @@
 # Hackout
 Team name : binary coders<br>
 Team members :
-    <pre>
+<pre>
     Vraj Shah
     Smit Rajani
     Aryan Patel
