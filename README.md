@@ -8,7 +8,7 @@ Team members :
     Yash Patel
     </pre>
 recepton
-    =>when patient arrive first time, he/she have to enter basic details od patient. 
+    when patient arrive first time, he/she have to enter basic details od patient. 
     =>this will create new file with unique QR which include blank prescription.
 
 Compounder :
