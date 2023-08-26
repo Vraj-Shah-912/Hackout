@@ -7,14 +7,14 @@ Team members :
     Aryan Patel
     Yash Patel
     </pre>
-recepton
-    when patient arrive first time, he/she have to enter basic details od patient. 
-    =>this will create new file with unique QR which include blank prescription.
+recepton : <br />
+    =>when patient arrive first time, he/she have to enter basic details od patient. <br />
+    =>this will create new file with unique QR which include blank prescription. <br />
 
-Compounder :
-    =>Translate doctors prescription to digital data.
-    =>when prescription updated then he/she only have to update in system.
+Compounder : <br />
+    =>Translate doctors prescription to digital data. <br />
+    =>when prescription updated then he/she only have to update in system. <br />
 
-Medical store :
-    => they have list of the doctors prescription.
-    => make packet of required packages and push the situation which will add all expense to the patients bill. 
+Medical store : <br />
+    => they have list of the doctors prescription. <br />
+    => make packet of required packages and push the situation which will add all expense to the patients bill.  <br />
