@@ -9,7 +9,7 @@ Team members :
     </pre>
 
 This is what our website will work for following departments: <br /><br />
-recepton : <br />
+reception : <br />
     =>when patient arrive first time, he/she have to enter basic details od patient. <br />
     =>this will create new file with unique QR which include blank prescription. <br /><br />
 
