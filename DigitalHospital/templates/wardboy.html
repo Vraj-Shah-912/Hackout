@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block css%}
+{% load static %}
+<link href="{% static 'css/pharmacy.css' %}" rel="stylesheet">
+{% endblock css %}
+
+{% block body %}
+
+
+<div class="container my-5 d-flex justify-content-center ">
+    <h2>Notifications</h2>
+</div>
+<div class="container  d-flex justify-content-end" style="width:35vw">
+    <h6>Task To Do : <b>4</b></h6>
+</div>
+
+<div class="container d-flex align-items-center flex-column">
+
+    <div class="card my-2 " style="width: 550px;">
+        <div class="card-header d-flex justify-content-between">
+         <div class="d-flex align-items-center">
+            <div>
+               Wheel Chair required 
+            </div>
+            </div>
+            <div>
+                <button class="btn btn-sm formbutton fs-6" type="submit">Done</button>
+            </div>
+        </div>
+            <div class="d-flex justify-content-between mr-3">
+                <p class="footer m-2 ml-4" style="font-size:12px">At - <b>07:56 am</b></p>
+                <p class="footer m-2" style="font-size:12px">Room no - <b>205</b> : bed - <b>12</b></p>             
+            </div>
+        </div>
+        <div class="card my-2" style="width: 550px;">
+            <div class="card-header d-flex justify-content-between">
+             <div class="d-flex align-items-center">
+                <div>
+                    Have to move patitent to operation room
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-sm formbutton fs-6" type="submit">Done</button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between mr-3">
+                    <p class="footer m-2 ml-4" style="font-size:12px">At - <b>08:06 am</b></p>
+                        <p class="footer m-2" style="font-size:12px">Room no - <b>202</b> : bed - <b>02</b></p>             
+                </div>
+            </div>
+            <div class="card my-2  " style="width: 550px;">
+                <div class="card-header d-flex justify-content-between">
+                 <div class="d-flex align-items-center">
+                    <div>
+                       strature required
+                    </div>
+                    </div>
+                    <div>
+                        <button class="btn btn-sm formbutton fs-6" type="submit">Done</button>
+                    </div>
+                </div>
+                    <div class="d-flex justify-content-between mr-3">
+                            <p class="footer m-2 ml-4" style="font-size:12px">At - <b>08:56 am</b></p>
+                            <p class="footer m-2" style="font-size:12px">Room no - <b>202</b> : bed - <b>02</b></p>             
+                    </div>
+                </div>
+                <div class="card my-2  " style="width: 550px;">
+                    <div class="card-header d-flex justify-content-between">
+                     <div class="d-flex align-items-center">
+                        <div>
+                           Wheel Chair required 
+                        </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-sm formbutton fs-6" type="submit">Done</button>
+                        </div>
+                    </div>
+                        <div class="d-flex justify-content-between mr-3">
+                                <p class="footer m-2 ml-4" style="font-size:12px">At - <b>09:56 am</b></p>
+                                <p class="footer m-2" style="font-size:12px">Room no - <b>507</b> : bed - <b>09</b></p>             
+                        </div>
+                    </div>
+
+</div>
+
+{% endblock body %}

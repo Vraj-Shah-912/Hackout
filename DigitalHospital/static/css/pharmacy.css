@@ -1,0 +1,28 @@
+body {
+    background: #e1e7ff; /* fallback for old browsers */
+    /* background: rgb(141,194,111); */
+    /* background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%); */
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+  }
+.navn{
+    background: #d6ddfa; 
+}
+  .formbutton {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #6478de;
+    border: 0;
+    color: #FFFFFF;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .formbutton:hover,.formbutton:active,.formbutton:focus {
+    color: #FFFFFF;
+    background: #263574;}
+.fm{
+    box-shadow: 0 0 20px 0 rgba(142, 142, 142, 0.449), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}

@@ -19,7 +19,7 @@ from login import views
 
 
 urlpatterns = [
-    path('login/', views.loginuser,name="loginuser"),
+    path('', views.loginuser,name="loginuser"),
     path('logout/', views.logoutuser,name="logoutuser"),
     path('pharmacy/', views.pharmacy,name="pharmacy"),
     path('ph/',include('Pharmacy.urls')),

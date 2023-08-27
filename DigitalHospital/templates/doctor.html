@@ -1,0 +1,139 @@
+{% extends 'base.html' %}
+
+{% block css%}
+{% load static %}
+<link href="{% static 'css/pharmacy.css' %}" rel="stylesheet">
+{% endblock css %}
+
+{% block body %}
+
+<div class="container">
+    <div class="card p-5">
+        
+        
+        <div class="d-flex justify-content-center mt-4">
+            <h3> Patient Details </h3>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="container mt-5 mx-auto">
+            <div class="card" style="width: 100%;">
+                <div class="card-header d-flex flex-row justify-content-evenly">
+                    <div class="mr-1">Patient id : </div>
+                    <div>61230654165106</div>
+                </div>
+                <div class="d-flex flex-row justify-content-start">
+                    <div class="p-3" style="width: 50%;">
+                        <h5 class="pb-2">
+                            <b>
+                                
+                                Personal details :
+                            </b>
+                        </h5>
+                        <p>
+                            Name : Smit Rajani
+                        </p>
+                        <p>
+                            Gender : Male
+                        </p>
+                        <p>DOB : 28/12/2003</p>
+                        <p>Address : 801, someshwar society, sector 27, Gandhinagar, 382027</p>
+                        <p>Phone number : 9876543210</p>
+                        <p>Email Address : user@user.com</p>
+                        <p>Emergency Contact : 7845124578</p>
+                        <h5 class="pt-3 pb-2">
+                            <b>
+                                
+                                Medical details :
+                            </b>
+                        </h5>
+                        <p>Blood Group : A+</p>
+                        <p>Medical condition : neutral</p>
+                        <h5 class="pt-3 pb-2"><b>
+
+                            Current surgery status :
+                        </b>
+                        </h5>
+                        <p>Disease : Jaundice</p>
+                        <p><b>Test for jaundice :</b></p>
+                        <div>
+                            
+                            <label for="test" id="crc" class="mx-5 "> CRC test
+                            </label>
+                            <input for="crc" type="checkbox"></input>
+                        </div>
+                        <div>
+
+                            <label for="test" id="bulb" class="mx-5 "> bilirubin blood test
+                            </label>
+                            <input for="bulb" type="checkbox"></input>
+                        </div>
+                    </div>
+                    <div class="p-3" style="width: 50%; margin-left: 100px;">
+                        <img class="mb-3" style="width: 240px; " src="{% static 'img/qr.png' %}" alt="" srcset="">
+                        <p>Health Insurance : NO</p>
+                        <p>Consent to Treatment : yes</p>
+                        <pre>
+                        </pre>
+                        <p>Allergies : onion</p>
+                        <p>mental health : good</p>
+                        <pre>
+                            
+                            
+                            
+                            
+                            
+                        </pre>
+                        <div>
+                            <label for="test" id="lft" class="mx-5 "> LFT test
+                            </label>
+                            <input for="lft" type="checkbox"></input>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="pt-3 pb-2">
+                        <b>
+                            Previous Medical details :
+                        </b>
+                    </h5>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    
+                                    <h5 class="card-title">Covid-19</h5>
+                                </div>
+                                <div>
+                                    
+                                    <button type="button" class="formbutton btn btn-primary">view</button>
+                                </div>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">12/12/2019</h6>
+                            <p class="card-text">covid-19 pandemic.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    
+                                    <h5 class="card-title">Covid-19</h5>
+                                </div>
+                                <div>
+                                    
+                                    <button type="button" class="formbutton btn btn-primary">view</button>
+                                </div>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">12/12/2019</h6>
+                            <p class="card-text">covid-19 pandemic.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+{% endblock body %}

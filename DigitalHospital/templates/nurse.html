@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+
+{% block css %}
+{% load static %}
+<link href="{% static 'css/pharmacy.css' %}" rel="stylesheet">
+{% endblock css %}
+
+{% block body %}
+<div class="container my-5 d-flex justify-content-center">
+  
+  <div class="card p-5 fm"  style="width: 500px;">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <div>
+              <h2 class="card-title text-start">Check-Up Details</h2>    
+              <h6 class="card-subtitle mb-2 text-start">Patient Id- 20154646</h6>
+            </div>
+            <div>
+              <img src="{% static 'img/qr.png' %}" alt="img not found" height="100px">
+            </div>
+          </div>
+          <hr>
+          <form >
+            <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="physicalExamination">
+                  <label class="form-check-label" for="physicalExamination">Physical Examination</label>
+                </div>
+                
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="healthHistoryReview">
+                  <label class="form-check-label" for="healthHistoryReview">Health History Review</label>
+                </div>
+                
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="medicine">
+                  <label class="form-check-label" for="medicine">Medicine Prescription</label>
+                </div>
+        
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="xray">
+                    <label class="form-check-label" for="xray">X-Ray Examination</label>
+                  </div>
+                  
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="bloodBottle">
+                    <label class="form-check-label" for="bloodBottle">Blood Sample Collection</label>
+                  </div>
+                  
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="urineCheck">
+                    <label class="form-check-label" for="urineCheck">Urine Check</label>
+                  </div>
+                  
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="bloodTest">
+                    <label class="form-check-label" for="bloodTest">Blood Test</label>
+                </div>
+                
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="injectionDose">
+                    <label class="form-check-label" for="injectionDose">Injection Dose</label>
+                </div>
+        
+                
+        
+                <h5 class="mt-4">Vital Signs</h5>
+                
+                <div class="mb-3">
+                  <label for="bodyTemperature" class="form-label">Body Temperature</label>
+                  <input type="text" class="form-control" id="bodyTemperature" placeholder="e.g. 98.6°F">
+                </div>
+        
+                <div class="mb-3">
+                    <label for="bloodPressure" class="form-label">Blood Pressure</label>
+                    <input type="text" class="form-control" id="bloodPressure" placeholder="e.g. 120/80 mmHg">
+                </div>
+        
+                <div class="mb-3">
+                  <label for="weight" class="form-label">Weight</label>
+                    <input type="text" class="form-control" id="weight" placeholder="e.g. 150 lbs">
+                </div>
+        
+                <div class="mb-3">
+                  <label for="height" class="form-label">Height</label>
+                  <input type="text" class="form-control" id="height" placeholder="e.g. 5'10&quot;">
+                </div>
+        
+                <button type="submit" class="formbutton btn btn-primary mt-3 px-5 py-2">Submit</button>
+              </form>
+        </div>
+    </div>
+    </div>
+  </div>
+  {% endblock body %}
+  
+  
